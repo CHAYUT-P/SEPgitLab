@@ -13,6 +13,9 @@ class Simple_drawing_window1(QWidget):
         p = QPainter()
         p.begin(self)
         p.drawPixmap(QRect(200,100,320,320),self.ball)
+        p.setPen(QColor(0, 0, 0))
+        p.setBrush(QColor(255, 127, 0))
+        p.drawEllipse(QPoint(100, 100), 50, 50)
         p.end()
 
 def main():
