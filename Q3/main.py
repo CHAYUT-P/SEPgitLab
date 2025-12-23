@@ -43,10 +43,6 @@ class Disk(object):
         t.forward(self.dwidth//2)
         t.end_fill()
 
-
-disk = Disk()
-disk.showdisk()
-
 class Pole(object):
     pass
 
